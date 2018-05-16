@@ -30,3 +30,5 @@
 	From there, they must fill in the line data_btc = pd.read_csv(“FILE_NAME", usecols=[4]) with 
 	the appropriate CSV filename. After that, they should be able to train the network on the 
 	currency of their choice.
+	Here is the link to the Google Colab containing the Network:
+	https://colab.research.google.com/drive/14cFWBOuQYjx8SDFeqlkQNI-IMGUGTVQx#scrollTo=B0u7xiOgKlNk
