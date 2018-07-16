@@ -1,8 +1,9 @@
 # crypto-NN
-		Quite recently, Cryptocurrencies have become a hot topic for financial consideration.
-	For all intents and purposes, they behave like stocks, as traders carefully anticipate the rise 
-	and fall of the closing price for their cryptocurrency of choice. I wanted to see if there was
-	a way to utilize deep learning, specially implementing long short-term-memory design, to predict the 
+
+###		Quite recently, Cryptocurrencies have become a hot topic for financial consideration.
+#	For all intents and purposes, they behave like stocks, as traders carefully anticipate the rise 
+#	and fall of the closing price for their cryptocurrency of choice. I wanted to see if there was
+#	a way to utilize deep learning, specially implementing long short-term-memory design, to predict the 
 	overall trends in the rise and fall of various cryptocurrencies.
 		The Network itself is implemented using Keras and Tensorflow frameworks, two open-source deep 
 	learning libraries. It derives its data from that which is available on the Yahoo! finance database. 
@@ -30,5 +31,3 @@
 	From there, they must fill in the line data_btc = pd.read_csv(“FILE_NAME", usecols=[4]) with 
 	the appropriate CSV filename. After that, they should be able to train the network on the 
 	currency of their choice.
-	Here is the link to the Google Colab containing the Network:
-	https://colab.research.google.com/drive/14cFWBOuQYjx8SDFeqlkQNI-IMGUGTVQx#scrollTo=B0u7xiOgKlNk
